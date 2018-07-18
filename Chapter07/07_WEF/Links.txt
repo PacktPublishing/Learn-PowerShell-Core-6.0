@@ -1,0 +1,7 @@
+https://blogs.technet.microsoft.com/jepayne/2017/12/08/weffles/
+
+https://social.technet.microsoft.com/wiki/contents/articles/33895.windows-event-forwarding.aspx
+
+https://mva.microsoft.com/en-US/training-courses/event-forwarding-and-log-analysis-16506?l=fZ2kRFGmC_1304300474
+
+https://blogs.technet.microsoft.com/jepayne/2015/11/23/monitoring-what-matters-windows-event-forwarding-for-everyone-even-if-you-already-have-a-siem/

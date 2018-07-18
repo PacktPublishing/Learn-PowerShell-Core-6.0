@@ -1,0 +1,1 @@
+Get-Service | Out-File c:\temp\Services.txt

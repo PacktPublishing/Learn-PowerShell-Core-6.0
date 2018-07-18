@@ -1,0 +1,13 @@
+Cmdlet			Description
+Add-MpPreference	Modifies settings for Windows Defender.
+Get-MpComputerStatus	Gets the status of anti-malware software on the computer.
+Get-MpPreference	Gets preferences for the Windows Defender scans and updates.
+Get-MpThreat	Gets the history of threats detected on the computer.
+Get-MpThreatCatalog	Gets known threats from the definitions catalog.
+Get-MpThreatDetection	Gets active and past malware threats that Windows Defender detected.
+Remove-MpPreference	Removes exclusions or default actions.
+Remove-MpThreat	Removes active threats from the computer.
+Set-MpPreference	Configures preferences for Windows Defender scans and updates.
+Start-MpScan		Starts a scan on the computer.
+Start-MpWDOScan		Starts a Windows Defender offline scan.
+Update-MpSignature	Updates the anti-malware definitions on the computer.
