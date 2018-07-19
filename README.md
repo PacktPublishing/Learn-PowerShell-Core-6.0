@@ -57,7 +57,7 @@ is a former software developer, has been working for Microsoft and works now as 
 
 He is also very integrated in the PS community, as he is organizing the PowerShell user groups Germany and Munich and speaks frequently at PowerShell conferences.
 
-**Jan-Hendrik**
+**Jan-Hendrik Peters**
 is an Automation and DevOps professional by day and a developer for the lab framework AutomatedLab by night.
 After working at an international retailer automating distributed POS support systems he started working as a Premier Field Engineer for Microsoft Germany where he helps customers automate their infrastructure on-premises and in the cloud.
 When he is not working, he likes to spend his time brewing his own beer, curing his own bacon and generally doing manual labor.
