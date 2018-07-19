@@ -43,10 +43,10 @@ With the following software and hardware list you can run all code files present
 ### Software and Hardware List
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
-| 43117 | Visual Studio Code | Windows, Mac OS X, and Linux (Any) |
+| 1-17 | Visual Studio Code | Windows, Mac OS X, and Linux (Any) |
 | 10 | AutomatedLab (current) | Windows 10 / Server 2016 |
 | 14 | Azure Subscription | Windows, Mac OS X, and Linux (Any) |
-| 43117 | PowerShell Core | Windows, Mac OS X, and Linux (Any) |
+| 1-17 | PowerShell Core | Windows, Mac OS X, and Linux (Any) |
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]().
 
