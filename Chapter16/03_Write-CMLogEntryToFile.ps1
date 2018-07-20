@@ -1,14 +1,14 @@
-function Write-CMLogEntryToFile
+function Write-CMLogEntry
 {
     <#
     .Synopsis
        Logs the entry in an CMTrace-compatible format to an logpath.
     .EXAMPLE
-       Write-CMLogEntryToFile -Value 'Example' -Severity 2 -LogFilePath $LogFilePath 
+       Write-CMLogEntry -Value 'Example' -Severity 2 -LogFilePath $LogFilePath 
     .EXAMPLE
         $TSEnvironment = New-Object -ComObject Microsoft.SMS.TSEnvironment -ErrorAction Stop
         $LogFilePath = Join-Path -Path $Script:TSEnvironment.Value('_SMSTSLogPath') -ChildPath $FileName
-        Write-CMLogEntryToFile -Value 'ExampleWithLogFilePath' -Severity 1 -LogFilePath $LogFilePath 
+        Write-CMLogEntry -Value 'ExampleWithLogFilePath' -Severity 1 -LogFilePath $LogFilePath 
     .EXAMPLE
     Begin {
             # Construct TSEnvironment object
@@ -27,8 +27,13 @@ function Write-CMLogEntryToFile
             $LogFilePath = Join-Path -Path $Script:TSEnvironment.Value('_SMSTSLogPath') -ChildPath $FileName
         }
     Process {
-            Write-CMLogEntryToFile -Value 'ExampleWithLogFilePath' -Severity 3 -LogFilePath $LogFilePath 
+            Write-CMLogEntry -Value 'ExampleWithLogFilePath' -Severity 3 -LogFilePath $LogFilePath 
         }
+
+
+
+        The above code can be used in scripts to be executed with SCCM, which is why exit is used instead of returning or throwing.
+        It will write a message "ExampleWithLogFilePath" with severity 3 to a specified log file.
     #>
     param(
         [parameter(Mandatory = $true, HelpMessage = 'Value added to the logfile.')]
