@@ -50,7 +50,6 @@ With the following software and hardware list you can run all code files present
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]().
 
-### Related products
 ## Get to Know the Author
 **David das Neves**
 is a former software developer, has been working for Microsoft and works now as a Cloud Consultant at Google. In his daily tasks he works primarily with enterprise customers to leverage the power of the Google Cloud Platform and to help them transforming their businesses. Besides his work, he writes books, blog articles, organizes user groups, and speaks at conferences and other events all over the world.
