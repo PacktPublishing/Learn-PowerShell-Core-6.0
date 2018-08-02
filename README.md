@@ -50,6 +50,12 @@ With the following software and hardware list you can run all code files present
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]().
 
+### Related products <Paste books from the Other books you may enjoy section>
+* Windows Server 2016 Automation with PowerShell Cookbook - Second Edition [[Packt]](https://www.packtpub.com/networking-and-servers/windows-server-2016-automation-powershell-cookbook-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781787122048) [[Amazon]](https://www.amazon.com/dp/1787122042)
+
+* Mastering Metasploit - Third Edition [[Packt]](https://www.packtpub.com/networking-and-servers/mastering-windows-powershell-scripting-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781787126305) [[Amazon]](https://www.amazon.com/dp/1787126307)
+
+
 ## Get to Know the Author
 **David das Neves**
 is a former software developer, has been working for Microsoft and works now as a Cloud Consultant at Google. In his daily tasks he works primarily with enterprise customers to leverage the power of the Google Cloud Platform and to help them transforming their businesses. Besides his work, he writes books, blog articles, organizes user groups, and speaks at conferences and other events all over the world.
@@ -60,3 +66,7 @@ He is also very integrated in the PS community, as he is organizing the PowerShe
 is an Automation and DevOps professional by day and a developer for the lab framework AutomatedLab by night.
 After working at an international retailer automating distributed POS support systems he started working as a Premier Field Engineer for Microsoft Germany where he helps customers automate their infrastructure on-premises and in the cloud.
 When he is not working, he likes to spend his time brewing his own beer, curing his own bacon and generally doing manual labor.
+
+### Suggestions and Feedback
+[Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
+
