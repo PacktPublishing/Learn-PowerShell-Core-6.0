@@ -48,7 +48,7 @@ With the following software and hardware list you can run all code files present
 | 14 | Azure Subscription | Windows, Mac OS X, and Linux (Any) |
 | 1-17 | PowerShell Core | Windows, Mac OS X, and Linux (Any) |
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]().
+We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/LearnPowerShellCore6_ColorImages.pdf).
 
 ### Related products <Paste books from the Other books you may enjoy section>
 * Windows Server 2016 Automation with PowerShell Cookbook - Second Edition [[Packt]](https://www.packtpub.com/networking-and-servers/windows-server-2016-automation-powershell-cookbook-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781787122048) [[Amazon]](https://www.amazon.com/dp/1787122042)
