@@ -123,8 +123,8 @@ New-WebSite -Name NuGetGallery -Port 80 -PhysicalPath C:\NugetWebApp
 $codeSigningCert = Get-ChildItem Cert:\CurrentUser\my -CodeSigningCert
 $param = @{
     FilePath = @(
-        '.\Ch10\VoiceCommands\VoiceCommands.psd1'
-        '.\Ch10\VoiceCommands\VoiceCommands.psm1'
+        '.\Chapter10\VoiceCommands\VoiceCommands.psd1'
+        '.\Chapter10\VoiceCommands\VoiceCommands.psm1'
     )
 }
 $setParam = $param.Clone()
