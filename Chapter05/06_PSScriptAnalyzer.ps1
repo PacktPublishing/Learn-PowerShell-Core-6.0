@@ -11,7 +11,7 @@ Get-Process | Where Name -eq explorer
 # Variables that are not consumed should be removed
 $var = "test"
 
-Invoke-ScriptAnalyzer -Path .\Ch5\06_PSScriptAnalyzer.ps1
+Invoke-ScriptAnalyzer -Path .\Chapter05\06_PSScriptAnalyzer.ps1
 
 # you can exclude specific rules
 # The argument completer should give you a list of all rules
