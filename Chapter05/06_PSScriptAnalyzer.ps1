@@ -15,7 +15,7 @@ Invoke-ScriptAnalyzer -Path .\Chapter05\06_PSScriptAnalyzer.ps1
 
 # you can exclude specific rules
 # The argument completer should give you a list of all rules
-Invoke-ScriptAnalyzer -Path .\Ch5\06_PSScriptAnalyzer.ps1 -ExcludeRule PSAvoidUsingCmdletAliases
+Invoke-ScriptAnalyzer -Path .\Chapter05\06_PSScriptAnalyzer.ps1 -ExcludeRule PSAvoidUsingCmdletAliases
 
 # When writing functions, you can suppress rules as well
 function Get-Stuff()
@@ -27,4 +27,4 @@ function Get-Stuff()
 
 }
 
-Invoke-ScriptAnalyzer -Path .\Ch5\06_PSScriptAnalyzer.ps1
+Invoke-ScriptAnalyzer -Path .\Chapter05\06_PSScriptAnalyzer.ps1

